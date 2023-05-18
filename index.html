@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            color:white;
+            background:url("https://wallpapertag.com/wallpaper/full/3/5/2/198284-gym-background-3000x1730-for-xiaomi.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .left{
+              display: inline-block;
+              border:2px solid red;
+              position:absolute;
+              left:60px;
+              top:20px;
+              width:85px;
+              height:85px;
+              background: url("");
+              
+
+        }
+        .left img{
+            width: 85px;
+            height:85px;
+           
+        }
+        .mid{
+            display:block;
+            width:700px;
+            margin:20px auto;
+            border:2px solid rgb(202, 202, 137) ;
+            border-radius: 10px;
+            padding-left: 25px;
+             
+        }
+        .right{ 
+            position:absolute;
+            right:34px;
+            top:20px;
+            display: inline-block; 
+            /* border:2px solid blue; */
+        }   
+        .navbar{
+            display: inline-block;
+        }   
+        .navbar li{
+            display: inline-block;
+            color:white;
+            font-size:25px;
+            
+        }
+        .navbar li a{
+            color:white;
+            padding:27px;
+            text-decoration:none;
+            /* padding-left: 5px; */
+            
+        }
+        .navbar li a:hover{
+            color: black;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            
+        }
+        .btn{
+            margin:0px,9px;
+            color: black;
+            background-color: reddish yellow;
+            cursor: pointer;
+            padding:10px;
+            margin:10px;
+            border-radius: 6px;
+            border: 2px solid black;
+            font-size: 15px;
+        }
+        .btn:hover{
+            background-color: rgba(167, 151, 151, 0.96);
+        }
+        .container{
+            border:2px solid rgb(201, 201, 131);
+            margin:80px;
+            margin-right: 700px;
+            padding-left: 60px;
+            height:400px;
+            width:450px;
+            border-radius: 30px;
+           
+        }
+        
+        .formgroup input{
+            text-align: center;
+            display: block;
+            width:400px;
+            padding:1px;
+            font-size:25px;
+            margin:3px,auto;
+            border-radius: 3px solid black;
+
+
+        }
+        .btn1{
+             width:100px;
+             margin-left: 140px;
+             font-size: 20px;
+             background-color: rgb(154, 154, 228);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+           <!-- <img src="C:\Users\91887\Desktop\Gym website/download.jpg" alt=""> -->
+           <img src="https://thumbs.dreamstime.com/z/red-gym-logo-fitness-sport-good-design-company-business-134121187.jpg";" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About-us</a></li>
+                <!-- <li><a href="#">Fittness-Calculator</a></li> -->
+                <li><a href="#">Contact-Us</a></li>
+                <li><a href="https://www.google.com/maps/place/26%C2%B049'29.8%22N+75%C2%B051'56.9%22E/@26.8249397,75.8636255,17z/data=!3m1!4b1!4m4!3m3!8m2!3d26.8249397!4d75.8658142?hl=en">Location</a></li>
+            </ul>
+        </div>
+        <div class="right">
+        <button class="btn">Call Us Now </button><button class="btn">Email-Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of jaipur now</h1>
+        <form>
+            <div class="formgroup">
+            <input type="text" placeholder="Enter Your Name"></br>
+            <input type="text" placeholder="Enter Your Age"></br>
+            <input type="text" placeholder="Enter Your Gender"></br>
+            <input type="text" placeholder="Enter Your Locality"></br>
+            <input type="text" placeholder="Enter Your Phone Number"></br>
+        </div>
+        <input type="button" class="btn1" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
